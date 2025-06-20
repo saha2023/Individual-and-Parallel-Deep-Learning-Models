@@ -20,10 +20,11 @@ These findings highlight dataset complexity’s impact on
 model efficacy, with parallel models showing marginal
 gains on simpler tasks.
 
+## three Individual models
 ![image](https://github.com/user-attachments/assets/a443d08b-3da1-4dbf-acf0-1514f42c782b)
 
 
-Three Parallel Model Combinations
+## Three Parallel Model Combinations
 Your research evaluated three specific parallel combinations: ResNet18+GoogLeNet, VGG16+GoogLeNet, and ResNet18+VGG16. Each combination brings together different architectural philosophies and parameter counts.
 ![image (1)](https://github.com/user-attachments/assets/43b9cc86-31e7-4d92-8804-c9641688af80)
 
