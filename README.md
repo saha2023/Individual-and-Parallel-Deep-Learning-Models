@@ -25,6 +25,11 @@ gains on simpler tasks.
 
 
 ## Three Parallel Model Combinations
-Your research evaluated three specific parallel combinations: ResNet18+GoogLeNet, VGG16+GoogLeNet, and ResNet18+VGG16. Each combination brings together different architectural philosophies and parameter counts.
+This research evaluated three specific parallel combinations: ResNet18+GoogLeNet, VGG16+GoogLeNet, and ResNet18+VGG16. Each combination brings together different architectural philosophies and parameter counts.
 ![image (1)](https://github.com/user-attachments/assets/43b9cc86-31e7-4d92-8804-c9641688af80)
 
+
+## Training Workflow and Two-Phase Approach
+The training methodology employed a sophisticated two-phase strategy that optimizes both feature extraction and fine-tuning phases. This approach leverages transfer learning principles while allowing task-specific adaptation.
+Phase 1 involves freezing pre-trained weights and training only the classification layer for 5 epochs. Phase 2 unfreezes all layers and fine-tunes the entire network with differentiated learning rates for 10 additional epochs. This methodology proved highly effective across all tested architectures.
+![image (2)](https://github.com/user-attachments/assets/dad0a725-71a4-41f1-a88a-a58708ed205e)
